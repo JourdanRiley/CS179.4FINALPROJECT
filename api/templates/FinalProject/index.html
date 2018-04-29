@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Calendar </title>
+		{% load static %}
+		<link type="text/css" rel = "stylesheet" href="{% static 'style.css' %}">
+	</head>
+	<body>
+		<div id="calendar-container">
+			<div id="calendar-header">
+				<span id="calendar-month-year"></span>
+			</div>
+			<div id="calendar-dates">
+			</div>
+		</div>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="{% static 'script.js' %}"></script>
+</html>
